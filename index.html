@@ -2,56 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Welcome to BuiltByJegam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jegam Rijal – IT Systems Analyst</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
+      margin: 0;
       background: #f4f4f4;
       color: #333;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
     }
-
-    header {
-      background-color: #1f2937;
-      color: white;
-      width: 100%;
-      text-align: center;
-      padding: 2rem 1rem;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
-
+    h1, h2 {
+      color: #2c3e50;
+    }
     h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
-
     p {
-      margin-top: 1rem;
-      font-size: 1.2rem;
+      line-height: 1.6;
     }
-
-    footer {
-      position: absolute;
-      bottom: 1rem;
+    .section {
+      margin-top: 2rem;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #3498db;
+    }
+    .contact {
       font-size: 0.9rem;
-      color: #777;
+      color: #666;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to BuiltByJegam</h1>
-    <p>This site is proudly hosted on GitHub Pages</p>
-  </header>
+  <div class="container">
+    <h1>Jegam Rijal</h1>
+    <p class="contact">
+      Sydney, Australia · +61 452 459 855 · <a href="mailto:rijaljegam@gmail.com">rijaljegam@gmail.com</a><br>
+      <a href="https://bold.pro/my/jegam-rijal-241127143616/115r" target="_blank">View Online Profile</a>
+    </p>
 
-  <footer>
-    &copy; 2025 BuiltByJegam. All rights reserved.
-  </footer>
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        Experienced IT Systems Analyst with 3+ years in business analysis, systems support, and SaaS platform management in global environments. Adept at supporting tools like Okta, Google Workspace, Jamf, Office 365, and ensuring SOX compliance. Strong communicator and problem solver with a customer-centric approach.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <ul>
+          <li>Business & Systems Analysis</li>
+          <li>SaaS Platform Management</li>
+          <li>IT Compliance & Controls</li>
+          <li>Cross-Regional Collaboration</li>
+        </ul>
+        <ul>
+          <li>Technical Support & Troubleshooting</li>
+          <li>Incident Management</li>
+          <li>Customer Service Communication</li>
+          <li>Task Prioritization & Planning</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <p><strong>Network Administrator – Health and Safety Institute</strong><br>Feb 2023 – Present</p>
+      <ul>
+        <li>Supported SaaS tools (Okta, Jamf, Google Workspace, etc.) for global users</li>
+        <li>Ensured SOX compliance and applied ITGC controls</li>
+        <li>Provided advanced support for PC and Mac environments</li>
+      </ul>
+
+      <p><strong>Systems Officer – NSW Education Standards Authority</strong><br>Aug 2022 – Feb 2023</p>
+      <ul>
+        <li>Managed Microsoft 365, Windows 11, Intune, and GPOs</li>
+        <li>Configured Veeam backups and automated tasks with PowerShell</li>
+      </ul>
+
+      <p><strong>Business Technology Analyst – Teachers Health Fund</strong><br>Nov 2021 – Jul 2022</p>
+      <ul>
+        <li>Provided POS support to 150+ locations</li>
+        <li>Trained franchisees and maintained knowledgebases</li>
+        <li>Supported Shopify, Magento, and marketplace integrations</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>Masters of Information Systems</strong><br>University of Southern Queensland, 2021</p>
+      <p><strong>Bachelor of Information Technology</strong><br>Sharda University, 2015</p>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Microsoft Certified: Azure Fundamentals</li>
+        <li>JAMF Certified</li>
+        <li>HCL Certified C# Developer</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Additional Info</h2>
+      <ul>
+        <li>Permanent Resident (Australia)</li>
+        <li>Relational DB Experience: SQL Server, MySQL</li>
+        <li>3+ years in ICT/System Admin, 1 year DBA</li>
+        <li>4 weeks notice period</li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
